@@ -1,0 +1,176 @@
+[02-May-2025 13:34:32 Asia/Jakarta] PHP Warning:  require_once(../config/koneksi.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:34:32 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '../config/koneksi.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:34:32 Asia/Jakarta] PHP Warning:  require_once(../config/koneksi.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:34:32 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '../config/koneksi.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:52:36 Asia/Jakarta] PHP Warning:  require_once(../config/koneksi.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:52:36 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '../config/koneksi.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:52:39 Asia/Jakarta] PHP Warning:  require_once(../config/koneksi.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:52:39 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '../config/koneksi.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:53:13 Asia/Jakarta] PHP Warning:  require_once(../config/koneksi.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:53:13 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '../config/koneksi.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:53:14 Asia/Jakarta] PHP Warning:  require_once(../config/koneksi.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:53:14 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '../config/koneksi.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:53:16 Asia/Jakarta] PHP Warning:  require_once(../config/koneksi.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:53:16 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '../config/koneksi.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:53:17 Asia/Jakarta] PHP Warning:  require_once(../config/koneksi.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:53:17 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '../config/koneksi.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:53:19 Asia/Jakarta] PHP Warning:  require_once(../config/koneksi.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:53:19 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '../config/koneksi.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:53:20 Asia/Jakarta] PHP Warning:  require_once(../config/koneksi.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:53:20 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '../config/koneksi.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/login.php on line 4
+[02-May-2025 13:56:54 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/sedt2135/public_html/config/koneksi.php on line 12
+[02-May-2025 13:56:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function log_error() in /home/sedt2135/public_html/config/koneksi.php:16
+Stack trace:
+#0 /home/sedt2135/public_html/admin/login.php(4): require_once()
+#1 {main}
+  thrown in /home/sedt2135/public_html/config/koneksi.php on line 16
+[02-May-2025 13:56:56 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/sedt2135/public_html/config/koneksi.php on line 12
+[02-May-2025 13:56:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function log_error() in /home/sedt2135/public_html/config/koneksi.php:16
+Stack trace:
+#0 /home/sedt2135/public_html/admin/login.php(4): require_once()
+#1 {main}
+  thrown in /home/sedt2135/public_html/config/koneksi.php on line 16
+[02-May-2025 14:03:04 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/sedt2135/public_html/config/koneksi.php on line 12
+[02-May-2025 14:03:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function log_error() in /home/sedt2135/public_html/config/koneksi.php:16
+Stack trace:
+#0 /home/sedt2135/public_html/admin/login.php(4): require_once()
+#1 {main}
+  thrown in /home/sedt2135/public_html/config/koneksi.php on line 16
+[02-May-2025 14:03:06 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/sedt2135/public_html/config/koneksi.php on line 12
+[02-May-2025 14:03:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function log_error() in /home/sedt2135/public_html/config/koneksi.php:16
+Stack trace:
+#0 /home/sedt2135/public_html/admin/login.php(4): require_once()
+#1 {main}
+  thrown in /home/sedt2135/public_html/config/koneksi.php on line 16
+[02-May-2025 15:00:44 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/sedt2135/public_html/config/koneksi.php on line 21
+[02-May-2025 15:00:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function log_error() in /home/sedt2135/public_html/config/koneksi.php:25
+Stack trace:
+#0 /home/sedt2135/public_html/admin/carrousel.php(3): require_once()
+#1 {main}
+  thrown in /home/sedt2135/public_html/config/koneksi.php on line 25
+[02-May-2025 15:00:47 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/sedt2135/public_html/config/koneksi.php on line 21
+[02-May-2025 15:00:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function log_error() in /home/sedt2135/public_html/config/koneksi.php:25
+Stack trace:
+#0 /home/sedt2135/public_html/admin/carrousel.php(3): require_once()
+#1 {main}
+  thrown in /home/sedt2135/public_html/config/koneksi.php on line 25
+[02-May-2025 15:00:48 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/sedt2135/public_html/config/koneksi.php on line 21
+[02-May-2025 15:00:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function log_error() in /home/sedt2135/public_html/config/koneksi.php:25
+Stack trace:
+#0 /home/sedt2135/public_html/admin/carrousel.php(3): require_once()
+#1 {main}
+  thrown in /home/sedt2135/public_html/config/koneksi.php on line 25
+[02-May-2025 15:00:48 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/sedt2135/public_html/config/koneksi.php on line 21
+[02-May-2025 15:00:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function log_error() in /home/sedt2135/public_html/config/koneksi.php:25
+Stack trace:
+#0 /home/sedt2135/public_html/admin/carrousel.php(3): require_once()
+#1 {main}
+  thrown in /home/sedt2135/public_html/config/koneksi.php on line 25
+[02-May-2025 15:00:49 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/sedt2135/public_html/config/koneksi.php on line 21
+[02-May-2025 15:00:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function log_error() in /home/sedt2135/public_html/config/koneksi.php:25
+Stack trace:
+#0 /home/sedt2135/public_html/admin/index.php(8): require_once()
+#1 {main}
+  thrown in /home/sedt2135/public_html/config/koneksi.php on line 25
+[02-May-2025 15:00:49 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/sedt2135/public_html/config/koneksi.php on line 21
+[02-May-2025 15:00:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function log_error() in /home/sedt2135/public_html/config/koneksi.php:25
+Stack trace:
+#0 /home/sedt2135/public_html/admin/login.php(4): require_once()
+#1 {main}
+  thrown in /home/sedt2135/public_html/config/koneksi.php on line 25
+[02-May-2025 15:00:50 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/sedt2135/public_html/config/koneksi.php on line 21
+[02-May-2025 15:00:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function log_error() in /home/sedt2135/public_html/config/koneksi.php:25
+Stack trace:
+#0 /home/sedt2135/public_html/admin/index.php(8): require_once()
+#1 {main}
+  thrown in /home/sedt2135/public_html/config/koneksi.php on line 25
+[02-May-2025 15:12:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function log_error() in /home/sedt2135/public_html/admin/produk.php:162
+Stack trace:
+#0 {main}
+  thrown in /home/sedt2135/public_html/admin/produk.php on line 162
+[02-May-2025 15:12:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function log_error() in /home/sedt2135/public_html/admin/produk.php:162
+Stack trace:
+#0 {main}
+  thrown in /home/sedt2135/public_html/admin/produk.php on line 162
+[02-May-2025 15:13:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function log_error() in /home/sedt2135/public_html/admin/produk.php:162
+Stack trace:
+#0 {main}
+  thrown in /home/sedt2135/public_html/admin/produk.php on line 162
+[02-May-2025 17:43:47 Asia/Jakarta] PHP Warning:  require_once(/home/sedt2135/public_html/admin/../utils/functions.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/produk.php on line 6
+[02-May-2025 17:43:47 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/sedt2135/public_html/admin/../utils/functions.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/produk.php on line 6
+[02-May-2025 18:20:18 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[02-May-2025 18:20:50 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[02-May-2025 18:21:02 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[02-May-2025 18:21:12 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[02-May-2025 18:23:29 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[02-May-2025 18:27:37 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[02-May-2025 18:27:47 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[02-May-2025 18:46:41 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[02-May-2025 18:57:26 Asia/Jakarta] PHP Warning:  mysqli_ping(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/info_pages.php on line 167
+[02-May-2025 19:25:12 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[02-May-2025 19:25:54 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[02-May-2025 19:25:58 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[02-May-2025 19:26:03 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[02-May-2025 19:26:06 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[03-May-2025 10:42:42 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/produk.php on line 382
+[03-May-2025 10:43:47 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/produk.php on line 382
+[03-May-2025 10:44:22 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/produk.php on line 382
+[03-May-2025 10:47:49 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/produk.php on line 382
+[03-May-2025 11:11:52 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[03-May-2025 11:25:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/sedt2135/public_html/admin/pesanan.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sedt2135/public_html/admin/pesanan.php on line 16
+[03-May-2025 11:25:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/sedt2135/public_html/admin/pesanan.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sedt2135/public_html/admin/pesanan.php on line 16
+[03-May-2025 11:26:26 Asia/Jakarta] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/user.php on line 223
+[03-May-2025 11:28:13 Asia/Jakarta] PHP Warning:  mysqli_ping(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/pesanan.php on line 157
+[03-May-2025 11:28:26 Asia/Jakarta] PHP Warning:  mysqli_ping(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/pesanan.php on line 157
+[06-May-2025 10:52:03 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/index.php on line 16
+[06-May-2025 10:52:03 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/index.php on line 16
+[06-May-2025 11:17:32 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:32 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:35 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:35 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:35 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:35 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:36 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:36 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:36 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:36 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:36 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:36 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:37 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:37 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:37 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:37 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:37 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:37 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:37 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:37 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:38 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:38 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:38 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:38 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:39 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:39 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:40 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:40 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:40 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:40 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:43 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:43 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:43 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:43 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:43 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:43 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:44 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:44 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:44 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:44 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:44 Asia/Jakarta] PHP Warning:  require_once(page-template.php): failed to open stream: No such file or directory in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:17:44 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'page-template.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sedt2135/public_html/admin/kategori.php on line 6
+[06-May-2025 11:42:40 Asia/Jakarta] PHP Warning:  mysqli_ping(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/pesanan.php on line 157
+[06-May-2025 11:52:44 Asia/Jakarta] PHP Warning:  mysqli_ping(): Couldn't fetch mysqli in /home/sedt2135/public_html/admin/pesanan.php on line 157

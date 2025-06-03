@@ -1,0 +1,814 @@
+/* Paste this into assets/css/style.css */
+:root {
+  --primary-color: #3a86ff;
+  --secondary-color: #ff006e;
+  --bg-color: #f8f9fa;
+  --text-color: #333;
+  --light-gray: #eaeaea;
+  --white: #fff;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  /* Padding top dipindahkan atau dihapus jika header tidak fixed/sticky */
+  /* padding-top: 56px; */ /* Sesuaikan jika header top nav fixed */
+}
+
+/* === Style untuk Header Navigasi Utama (Paling Atas) === */
+header:not(.hero) { /* Target header yg BUKAN hero carousel */
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+  position: sticky; /* Atau fixed jika diperlukan */
+  top: 0;
+  z-index: 1030;
+  width: 100%;
+}
+/* ===================================================== */
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar { /* Style the main navbar container inside header:not(.hero) */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0; /* Padding disesuaikan agar tidak terlalu tinggi */
+  min-height: 56px; /* Contoh tinggi minimum */
+}
+
+.logo {
+  font-size: 1.6rem; /* Sedikit lebih kecil */
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.logo span {
+  color: var(--secondary-color);
+}
+
+/* --- Navigation Links --- */
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+@media (max-width: 991px) {
+  .nav-links {
+      display: none;
+  }
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: color 0.3s;
+  padding: 8px 0;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--primary-color);
+}
+
+/* --- Navigation Icons (Optional) --- */
+.nav-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-icons a {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.nav-icons a:hover {
+  color: var(--primary-color);
+}
+
+/* --- Mobile Menu --- */
+.mobile-menu {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: var(--text-color);
+}
+@media (max-width: 991px) {
+  .mobile-menu {
+      display: block;
+  }
+}
+
+/* --- Hero Section --- */
+header.hero { /* Target <header> DENGAN kelas .hero */
+  background: none; /* Hapus background default */
+  min-height: 400px;
+  height: 60vh;
+  display: flex; /* Tetap gunakan flex untuk alignment konten di dalam .carousel-caption */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 40px;
+  padding-top: 0; /* Hapus padding-top dari container header.hero */
+  position: relative; /* Dibutuhkan agar carousel-caption absolute terhadap ini */
+}
+
+/* Pastikan body punya padding jika navbar atas fix/sticky */
+body {
+  padding-top: 56px; /* Sesuaikan nilai ini dengan tinggi header navbar atas Anda */
+}
+
+
+/* Style untuk carousel items di dalam header.hero */
+#heroCarousel .carousel-item {
+  height: 60vh; /* Sesuaikan dengan height header.hero */
+  min-height: 400px;
+}
+#heroCarousel .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  filter: brightness(0.5); /* Gelapkan gambar */
+}
+
+#heroCarousel .carousel-caption { /* Atur posisi caption */
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 10;
+  pointer-events: none; /* Agar tidak mengganggu kontrol carousel */
+}
+#heroCarousel .carousel-caption .btn {
+   pointer-events: auto; /* Aktifkan event untuk button */
+}
+
+.hero-content {
+  max-width: 700px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+  font-size: calc(2rem + 1.8vw);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: calc(1rem + 0.3vw);
+  margin-bottom: 30px;
+}
+
+/* --- Tombol --- */
+.btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--white) !important;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #2a75e6;
+  transform: translateY(-3px);
+  color: var(--white);
+}
+/* ... (sisa style tombol lainnya) ... */
+
+/* --- Section Title --- */
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  position: relative;
+  color: var(--text-color);
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 15px auto 0;
+}
+
+/* --- Categories Filter --- */
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.category {
+  background-color: var(--white);
+  padding: 10px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-decoration: none;
+  color: var(--text-color);
+  border: 1px solid transparent;
+  font-size: 0.9rem;
+}
+
+.category.active,
+.category:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-color: var(--primary-color);
+}
+
+/* --- Products Grid --- */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.product {
+  background-color: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.product-img {
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+.product-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.product:hover .product-img img {
+  transform: scale(1.1);
+}
+
+/* ... (style untuk .product-badges, .product-icons jika digunakan) ... */
+
+/* Product Info Section */
+.product-info {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-category {
+  color: var(--primary-color);
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.product-title {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+  flex-grow: 1;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: calc(1.1rem * 1.4 * 2);
+}
+
+.product-title a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.product-title a:hover {
+  color: var(--primary-color);
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 0.9rem;
+  margin-right: 10px;
+}
+
+.cart-btn {
+  background-color: var(--primary-color);
+  color: var(--white);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  cursor: pointer;
+  border: none;
+  flex-shrink: 0;
+}
+
+.cart-btn:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.1);
+}
+.cart-btn i {
+  font-size: 1rem;
+}
+
+/* --- Features Section --- */
+.features {
+  background-color: var(--white);
+  padding: 60px 0;
+  margin-bottom: 50px;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+}
+
+.feature {
+  text-align: center;
+  padding: 20px;
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.feature p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* --- Gallery Section --- */
+.gallery {
+  padding: 60px 0;
+  background-color: var(--bg-color);
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 250px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.gallery-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}
+
+.gallery-info p {
+  font-size: 0.9rem;
+  color: #ddd;
+  margin-bottom: 0;
+}
+
+/* --- Newsletter Section --- */
+.newsletter {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 50px 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.newsletter h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.newsletter p {
+  margin-bottom: 25px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  color: rgba(255,255,255,0.8);
+}
+
+.newsletter-form {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  font-size: 1rem;
+}
+
+.newsletter-form button {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  border: none;
+  padding: 0 30px;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.newsletter-form button:hover {
+  background-color: #e0005d;
+}
+
+/* --- Footer --- */
+footer {
+  background-color: #222;
+  color: #bbb;
+  padding: 50px 0 20px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-col h3 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  position: relative;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.footer-col h3::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: var(--primary-color);
+  margin-top: 8px;
+}
+
+.footer-col p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+.footer-col ul li a:hover {
+  color: var(--primary-color);
+  padding-left: 5px;
+}
+
+.footer-col .social-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  color: #bbb;
+  text-decoration: none;
+}
+.social-icon i {
+  font-size: 0.9rem;
+}
+
+.social-icon:hover {
+  background-color: var(--primary-color);
+  transform: translateY(-3px);
+  color: var(--white);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.85rem;
+  color: #888;
+}
+
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 991px) {
+  /* ... Aturan responsive lainnya ... */
+}
+
+@media (max-width: 767px) {
+   /* ... Aturan responsive lainnya ... */
+   .footer-container { grid-template-columns: 1fr; text-align: center; }
+   .footer-col h3::after { margin-left: auto; margin-right: auto; }
+   .footer-col .social-icons { justify-content: center; }
+}
+
+@media (max-width: 575px) {
+   /* ... Aturan responsive lainnya ... */
+   .products { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 15px; }
+   .product-img { height: 150px; }
+   .gallery-container { grid-template-columns: 1fr; }
+   .gallery-item { height: 220px; }
+}
+
+/* ================================================================ */
+/* === PERBAIKAN: Hapus Background Hijau pada Hero Carousel === */
+/* ================================================================ */
+header#heroCarousel,
+header.hero { /* Target elemen header dengan ID atau kelas hero */
+  background: none !important; /* Hapus semua background */
+  background-color: transparent !important; /* Pastikan transparan */
+}
+/* ================================================================ */
+
+/* ================================================================ */
+/* === PERBAIKAN: Styling untuk Pagination (Produk Page) === */
+/* ================================================================ */
+
+.pagination {
+  display: flex; /* Pastikan item sejajar */
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.375rem; /* Sedikit radius sudut */
+  margin-top: 2rem; /* Beri jarak dari konten di atasnya */
+  justify-content: center; /* Pusatkan pagination */
+  flex-wrap: wrap; /* Biarkan wrap jika terlalu banyak halaman di layar kecil */
+}
+
+.page-item {
+  margin: 0 2px; /* Beri sedikit jarak antar tombol halaman */
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.6rem 0.9rem; /* Sesuaikan padding */
+  font-size: 0.9rem; /* Sesuaikan ukuran font */
+  color: var(--primary-color); /* Gunakan warna primer tema */
+  text-decoration: none;
+  background-color: var(--white);
+  border: 1px solid var(--light-gray); /* Gunakan light-gray untuk border */
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-radius: 0.25rem; /* Radius sudut untuk link */
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05); /* Shadow halus */
+}
+
+.page-link:hover {
+  z-index: 2;
+  color: var(--white); /* Teks putih saat hover */
+  background-color: var(--primary-color); /* Background primer saat hover */
+  border-color: var(--primary-color);
+}
+
+.page-link:focus {
+  z-index: 3;
+  color: var(--primary-color);
+  background-color: #e9ecef; /* Warna fokus Bootstrap default */
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(58, 134, 255, 0.25); /* Shadow fokus warna primer */
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  font-weight: bold; /* Tebalkan nomor halaman aktif */
+}
+
+.page-item.disabled .page-link {
+  color: #6c757d; /* Warna abu-abu Bootstrap default untuk disabled */
+  pointer-events: none;
+  background-color: var(--white);
+  border-color: var(--light-gray);
+  opacity: 0.7; /* Sedikit transparan */
+  box-shadow: none;
+}
+
+/* Penyesuaian untuk panah (jika ada - Bootstrap 5 biasanya menggunakan teks/simbol) */
+.page-link[aria-label="Sebelumnya"] span,
+.page-link[aria-label="Selanjutnya"] span {
+  font-weight: bold;
+}
+
+/* Opsional: Styling untuk ellipsis (...) jika logika PHP Anda menambahkannya */
+.page-item.disabled span.page-link {
+  padding: 0.6rem 0.9rem;
+  color: #6c757d;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+/* ================================================================ */
+
+/* ================================================================ */
+/* === PERBAIKAN: Styling untuk Filter Bar (Produk Page) === */
+/* ================================================================ */
+
+.filter-container {
+  background-color: var(--white); /* Latar belakang putih */
+  padding: 15px 20px; /* Padding di dalam container */
+  border-radius: 10px; /* Sudut melengkung seperti card */
+  box-shadow: var(--shadow); /* Gunakan shadow tema */
+  margin-bottom: 2rem; /* Jarak bawah */
+  border: 1px solid var(--light-gray); /* Border tipis */
+}
+
+.filter-container form {
+  margin-bottom: 0; /* Hilangkan margin bawah form jika ada */
+}
+
+/* Styling untuk Select Dropdown */
+.filter-container .form-select {
+  font-size: 0.9rem; /* Ukuran font sedikit lebih kecil */
+  border-color: var(--light-gray); /* Warna border */
+  border-radius: 20px; /* Buat lebih bulat */
+  padding: 8px 15px; /* Sesuaikan padding */
+  padding-right: 30px; /* Beri ruang untuk ikon panah */
+  color: var(--text-color);
+  background-color: var(--white);
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+  appearance: none; /* Sembunyikan panah default */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* Ganti panah default dengan ikon Font Awesome atau background image */
+  /* Contoh menggunakan background image (simple arrow) */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23333' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+}
+
+.filter-container .form-select:hover {
+  border-color: var(--primary-color); /* Border biru saat hover */
+}
+
+.filter-container .form-select:focus {
+  border-color: var(--primary-color);
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(58, 134, 255, 0.25); /* Shadow fokus biru */
+}
+
+/* Opsional: Styling untuk Input Group Tampil per Halaman */
+.filter-container .input-group-text {
+  background-color: var(--bg-color); /* Warna background sedikit beda */
+  border-color: var(--light-gray);
+  border-radius: 20px 0 0 20px; /* Bulat di kiri */
+  font-size: 0.85rem;
+  color: var(--text-color);
+}
+.filter-container .input-group .form-select {
+  border-radius: 0 20px 20px 0; /* Bulat di kanan */
+  border-left: none; /* Hapus border kiri agar menyatu */
+}
+
+/* Penyesuaian layout untuk filter bar jika menggunakan row/col */
+.filter-container .row {
+  align-items: center; /* Vertically align items */
+}
+
+/* ================================================================ */
